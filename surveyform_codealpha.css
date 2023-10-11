@@ -1,0 +1,101 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+    background-image: url("images/rGx9RL.jpg");
+    background-size: cover;
+    width:100%;
+    height:100%;
+}
+
+form{
+        width: 800px; height: 100%;
+    margin-left: 270px;
+    padding: 20px;
+    border-radius: 50px;
+    font-family: sans-serif;
+    background-color:rgba(024,0,0,0.7);
+    box-shadow: 1px 2px 10px whitesmoke;
+}
+.details{
+    margin-left: 60px;
+    word-spacing: 2px;
+}
+h1{
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 40px;
+    color: #fff;
+    text-shadow: 10px 10px 80px black;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 50px;
+    color: #fff;
+    text-shadow: 10px 10px 80px black;
+    text-align: center;
+}
+ label{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 550px;
+    color: #fff;
+}
+.detail input{
+    height: 15px; width: 650px;
+    padding: 10px;
+    align-items: center;
+    box-shadow: 1px 2px 3px white;
+}
+.job select{
+    height: 40px; width: 670px;
+    padding: 10px;
+    box-shadow: 1px 2px 3px white;
+}
+.radio input{
+ margin-left: 20px;
+ height: 20px; width: 20px;
+ cursor: pointer;
+}
+.feature select{
+    height: 40px; width: 670px;
+    padding: 10px;
+    box-shadow: 1px 2px 3px white;
+}
+.checkbox input{
+    height: 30px; width: 30px;
+    padding: 10px;
+    margin-left: 10px;
+    color: #fff;
+    box-shadow: 1px 2px 2px white;
+}
+.comment {width:95%;
+}
+button{
+    height: 40px; width: 650px;
+    font-size: 20px;
+    color: white;
+    background-color: crimson;
+    box-shadow: 2px 2px 10px white;
+    border-radius: 10px;
+}
+button:hover{
+    color: crimson;
+    background-color: transparent;
+}
+footer{
+    background-color: rgba(024,0,0,0.7);
+    margin-top: 60px;
+}
+footer h2{
+    text-align: center;
+}
+footer h2:hover{
+    color: crimson;
+}
